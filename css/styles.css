@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+hr {
+  width: 100%;
+  max-width: 1300px;
+  border: 1.5px solid rgb(128, 128, 128);
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+.instaLogo {
+  margin-top: 60px;
+  margin-left: 48%;
+}
+
+.about_text {
+  font-family: Playfair Display SC;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  margin: 15px;
+}
+
+.about_gmail {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 30px;
+}
+.wrapper .wrap2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 30px;
+}
+.wrapper .wrap3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 30px;
+}
+.wrapper .btn {
+  width: 282px;
+  height: 56px;
+  background: rgb(128, 128, 128);
+  border: none;
+  margin-left: 40%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.wrapper .btn .span {
+  font-family: Playfair Display SC;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.main2 .container .section {
+  width: 496px;
+  height: 391px;
+  border: 1px solid gray;
+  margin: 150px 100px;
+  display: flex;
+}
+.main2 .container .section .s_img {
+  margin: -55px 55px;
+}
+.main2 .container .s2_text {
+  font-family: Playfair Display SC;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46.66px;
+  color: rgb(128, 128, 128);
+  margin-left: 650px;
+  margin-top: -500px;
+}
+.main2 .container .section2 {
+  margin-left: 650px;
+}
+.main2 .container .section2 .about_text1 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.main2 .container .section2 .about_text2 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 40px;
+}
+.main2 .container .section2 .about_text2 .text2_span2 {
+  display: none;
+}
+.main2 .container .section2 .about_text3 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(128, 128, 128);
+  margin-top: 20px;
+}
+.main2 .container .section2 .btn_2 {
+  width: 282px;
+  height: 56px;
+  border: 2px solid gray;
+  margin-top: 25px;
+  cursor: pointer;
+  background: none;
+}
+.main2 .container .section2 .btn_2 .btn2_span {
+  font-family: Playfair Display SC;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(128, 128, 128);
+}
+
+.footer .container {
+  width: 100%;
+  max-width: 1440px;
+  height: 256px;
+  background: grey;
+  margin-top: 150px;
+}
+.footer .container .f_img {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  padding-top: 30px;
+}
+.footer .container .s_img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.footer .container .f_p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 375px) and (max-width: 429px) {
+  hr {
+    display: none;
+  }
+  .instaLogo {
+    margin-left: 45%;
+  }
+  .main2 .container .section {
+    width: 100%;
+    max-width: 422px;
+    height: 504px;
+    margin: 50px 0px;
+  }
+  .main2 .container .section .s_img {
+    width: 334px;
+    height: 454px;
+    margin: 40px 8%;
+  }
+  .main2 .container .s2_text {
+    display: none;
+  }
+  .main2 .container .section2 {
+    margin-left: 0px;
+    width: 100%;
+    max-width: 375px;
+  }
+  .main2 .container .section2 .about_text1 {
+    text-align: center;
+  }
+  .main2 .container .section2 .about_text2 {
+    text-align: center;
+  }
+  .main2 .container .section2 .about_text2 .text2_span {
+    display: none;
+  }
+  .main2 .container .section2 .about_text2 .text2_span2 {
+    display: block;
+  }
+  .main2 .container .section2 .about_text3 {
+    text-align: center;
+  }
+  .main2 .container .section2 .btn_2 {
+    margin-left: 13%;
+  }
+  .wrapper {
+    padding: 30px;
+  }
+  .wrapper .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  .wrapper .wrap .wrap_img1 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap .wrap_img2 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap .wrap_img3 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  .wrapper .wrap2 .wrap2_img1 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap2 .wrap2_img2 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap2 .wrap2_img3 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  .wrapper .wrap3 .wrap3_img1 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap3 .wrap3_img2 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .wrap3 .wrap3_img3 {
+    width: 101px;
+    height: 102px;
+  }
+  .wrapper .btn {
+    width: 263px;
+    height: 52px;
+    background: rgb(128, 128, 128);
+    border: none;
+    margin-left: 10%;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=styles.css.map */
